@@ -1,0 +1,42 @@
+Go is Object Oriented
+
+'class methods' -> attaching a function to a 'type' or struct
+
+(1) Encapsulation
+state ("fields")
+behavior ("methods")
+exported / un-exported
+
+(2) Reusability
+inheritence ("embedded types")
+
+(3) Polymorphism
+interfaces
+
+(4) Overriding
+"promotion"
+
+--> only where the field is anonymous
+
+//////////////
+Traditional OOP
+
+Classes
+-- data structure describing a type of object
+-- you can then create "instances"/"objects" from the class/blue-print
+-- classes hold both:
+==== state / data / fields
+==== behavior / methods
+-- Public / private
+
+Inheritence
+
+//////////////
+In Go:
+- you don't create classes, you create a type
+- you don't instantiate, you create a value of a type
+
+JSON
+///////////////
+Marshal / Unmarshal -> To and From a String
+Encode / Decode -> From stream?
